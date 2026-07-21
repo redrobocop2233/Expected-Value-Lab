@@ -25,19 +25,18 @@ pnpm dev        # start the dev server at http://localhost:8080
 ## Modules
 
 All ten modules are fully built out and interactive:
-
-| Module              | Route               | What it does |
-| ------------------- | -------------------- | ------------- |
-| Roulette             | `/roulette`           | European/American wheel simulator, bankroll chart, EV vs. actual comparison |
-| Blackjack            | `/blackjack`          | Random vs. dealer-mimicking vs. simplified basic strategy vs. always-stand |
-| Slot Machines        | `/slots`              | Configurable RTP + volatility with an exact solved paytable |
-| Poker Equity         | `/poker`              | Real Monte Carlo hand-vs-hand equity calculator with a 7-card evaluator |
-| Betting Strategies   | `/strategies`         | Flat, Martingale, Fibonacci, D'Alembert raced on identical outcomes |
-| Expected Value       | `/expected-value`     | Build a wager and watch the simulated average converge on its EV |
-| Gambler's Ruin       | `/gamblers-ruin`      | Closed-form ruin probability vs. Monte Carlo, with sample bankroll paths |
-| Kelly Criterion      | `/kelly-criterion`    | Optimal bet sizing vs. half/double Kelly vs. a fixed fraction |
-| Psychology & Biases  | `/psychology`         | Coin-flip streak simulator demonstrating the gambler's fallacy |
-| Monte Carlo Lab      | `/monte-carlo`        | Classic π-estimation experiment with a live scatter plot |
-| Finance & Investing  | `/finance`            | Index fund (GBM) vs. savings account vs. regular gambling, same horizon |
+| Module              | Description                                                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Roulette            | Simulates European and American roulette to study probabilities, expected value, and long-term outcomes.                 |
+| Blackjack           | Compares different playing strategies and their impact on player expectation.                                            |
+| Slot Machines       | Explores RTP (Return to Player), volatility, and probability distributions using configurable slot models.               |
+| Poker Equity        | Uses Monte Carlo simulations to estimate winning probabilities between poker hands.                                      |
+| Betting Strategies  | Analyzes popular betting systems such as Martingale, Fibonacci, Flat Betting, and D'Alembert under identical conditions. |
+| Expected Value      | Demonstrates how simulated results converge toward the theoretical expected value over many trials.                      |
+| Gambler's Ruin      | Studies bankroll survival, ruin probabilities, and long-term betting dynamics.                                           |
+| Kelly Criterion     | Explores optimal bankroll management through Kelly betting and compares it with alternative strategies.                  |
+| Psychology & Biases | Demonstrates common cognitive biases in gambling, including the gambler's fallacy and streak misconceptions.             |
+| Monte Carlo Lab     | Contains general-purpose Monte Carlo experiments for estimating probabilities and mathematical constants.                |
+| Finance & Investing | Compares long-term investing with gambling to illustrate differences in expected growth and risk.                        |
 
 
